@@ -3,7 +3,7 @@
 from guizero import *
 
 def say_hello():
-    info("An Alert", "Please don't press this button again!")
+    info("Interface", "Press this button I dare you!")
 
 app = App(title="Snider Technical Solutions", height=200)
 button = PushButton(app, text="Execute", command=say_hello)
