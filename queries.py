@@ -9,7 +9,7 @@ header = pyfiglet.figlet_format("Snider Tech Joke Generator!")
 
 print (header)
 url = "https://icanhazdadjoke.com/search"
-user_input = input("What topic would you like to search? ")
+user_input = input("What kind of joke would you like to search? ")
 res = requests.get(
     url,
     headers = {"Accept": "application/json"},
