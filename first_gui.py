@@ -2,10 +2,10 @@
 
 from guizero import *
 
-def say_hello():
-    info("Interface", "Press this button I dare you!")
+def error_handler():
+    info("Interface, ", "Press this button I dare you!")
 
 app = App(title="Snider Technical Solutions", height=200)
-button = PushButton(app, text="Execute", command=say_hello)
+button = PushButton(app, text="Execute", command=error_handler)
 
 app.display()
