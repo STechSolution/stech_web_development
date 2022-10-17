@@ -12,5 +12,10 @@ pass_length = len(password)
 # Cool way to display the password, without displaying it
 encrypted_pass = "*" * len(password)
 
+if (username == 'ghztcoder404'):
+    print ('Welcome Back Boss!')
+else:
+    pass
+
 # Print message to screen
 print(f"{username}, your password {encrypted_pass}, is {pass_length} characters long.")
