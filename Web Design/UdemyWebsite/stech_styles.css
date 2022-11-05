@@ -1,0 +1,22 @@
+h1 {
+    font-style: italic;
+    outline-style: groove;
+    outline-color: aqua;
+    color: rgb(90, 17, 207);
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(145, 18, 140);
+    
+}
+
+p {
+    color: blue;
+    outline-style: dotted;
+    outline: rgb(207, 6, 6);
+}
+
+ol {
+    color: rgb(5, 132, 155);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Snider Technical Solutions' Web Server</title>
+    <link rel="stylesheet" href="stech_styles.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      Welcome Back Boss!<br />
+      STech's Inventory Page~!
+    </h1>
+    <p id='demo'>Javascript can change HTML content.</p>
+    <h2>My Books</h2>
+    <hr />
+    <p><ol>
+      <li>"Programming in Python 3 (A Complete Introduction to the Python Language), written by Mark Summerfield"</li>
+      <li>"Attacking Network Protocols (A Hacker's Guide to Capture, Analysis, and Exploitation), written by James Forshaw"</li>
+      <li>""</li>
+      </ol>
+    </p>
+    <button type='button'
+    onclick="document.getElementById('calculator').innerHTML = Date()">Time at STech Solutions</button>
+
+    <h2>My Electronics</h2>
+    <hr />
+    <p>All computer systems, keyboards, mice, speakers, etc...</p>
+
+    <h2>New Items</h2>
+    <hr />
+    <p>
+      Add new inventory item's here.
+    </p>
+    <section id="calculator">
+        <label for="input-number"></label><input type="number" id="input-number" />
+      <div id="calc-actions">
+        <button type="button" id="btn-add">+</button>
+        <button type="button" id="btn-subtract">-</button>
+        <button type="button" id="btn-multiply">*</button>
+        <button type="button" id="btn-divide">/</button>
+      </div>
+    </section>
+    <section id="results">
+      <h1 id="current-calculation">0</h1>
+      <h1>Result: <span id="current-result">0</span></h1>
+    </section>
+    <button type='button'
+    onclick='document.getElementById("demo").innerHTML = "Thank You for Your Business!~"'>Confirm Sale</button>
+    <script src="stech_app.js"></script>
+    <script src="C:\Users\esnid\Desktop\JavaScript\Java_Practice\js_practice.js"></script>
+  </body>
+</html>
