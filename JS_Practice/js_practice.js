@@ -1,4 +1,4 @@
-let userName = Prompt('What is your username? ');
+let userName = prompt('What is your username? ');
 if (userName === 'ghzt') {
     console.log(`Welcome back ${userName}`);
 } else {
